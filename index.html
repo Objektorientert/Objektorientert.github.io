@@ -2,62 +2,94 @@
 <html lang="no">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#f7f7f2">
-  <meta name="description" content="Ukentlige matplaner, oppskrifter, handlelister og tilbud for et sunt og enkelt hverdagsliv.">
-  <title>Matplan — mat.fuglestad.io</title>
-  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Min ukentlige matplan med oppskrifter, tilbud og handleliste.">
+  <title>Matplan</title>
   <link rel="stylesheet" href="./styles.css">
   <script defer src="./app.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Hopp til innhold</a>
-  <header class="site-header"><div class="shell header-inner">
-    <a href="./" class="brand" aria-label="Matplan, til forsiden"><span class="brand-symbol" aria-hidden="true">✳</span><span>mat<span class="brand-dot">.</span></span></a>
-    <div class="header-right"><span class="brand-subtitle">Enklere hverdagsmat</span><button type="button" id="archive-toggle" class="header-button" aria-expanded="false" aria-controls="archive-menu">Uker <span aria-hidden="true">⌄</span></button></div>
-    <div id="archive-menu" class="archive-menu" hidden><div class="archive-heading">Tidligere matplaner</div><div id="archive-links"></div></div>
-  </div></header>
-  <main id="main" class="shell">
-    <div class="intro"><div class="eyebrow" id="period">UKENS MATPLAN</div><h1>God mat, <em>enklere hverdag.</em></h1><p class="intro-text" id="week-intro">En variert plan for uka. Sunt, godt og enkelt.</p></div>
-    <div class="summary">
-      <div><span class="summary-label">Ukens handleliste</span><strong class="summary-price" id="budget-actual">—</strong><span class="summary-note">av <span id="budget-target">—</span> i ukesbudsjett</span></div>
-      <div class="summary-track" aria-hidden="true"><div id="budget-progress"></div></div>
-      <p class="budget-note" id="budget-note">Hele pakningspriser, estimert der tilbud ikke er bekreftet.</p>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="site-name" href="./">Matplan</a>
+      <div class="header-actions">
+        <button id="archive-toggle" class="week-picker" type="button" aria-expanded="false" aria-controls="archive-menu">Velg uke <span aria-hidden="true">⌄</span></button>
+        <div id="archive-menu" class="archive-menu" hidden>
+          <p class="archive-label">Ukeoversikt</p>
+          <div id="archive-links"></div>
+        </div>
+      </div>
     </div>
-    <nav class="page-nav" aria-label="Sider på matplanen">
-      <a href="#middager" class="nav-item is-active" data-nav="middager">Middager</a>
-      <a href="#handleliste" class="nav-item" data-nav="handleliste">Handleliste</a>
-      <a href="#meal-prep" class="nav-item" data-nav="meal-prep">Meal prep</a>
-      <a href="#tilbud" class="nav-item" data-nav="tilbud">Tilbud</a>
+  </header>
+
+  <main class="shell" id="main">
+    <div class="overview">
+      <h1 id="week-title">Ukens matplan</h1>
+      <p class="period" id="period">Laster uke …</p>
+      <div class="budget-summary">
+        <div class="budget-line">
+          <span>Handlebudsjett</span>
+          <span><strong id="budget-actual">—</strong><span class="budget-target"> / <span id="budget-target">—</span></span></span>
+        </div>
+        <div class="budget-track" aria-hidden="true"><div id="budget-progress"></div></div>
+        <p id="budget-note" class="small-note"></p>
+      </div>
+    </div>
+
+    <nav class="page-nav" aria-label="Hopp til seksjon">
+      <a href="#middager">Middager</a>
+      <a href="#handleliste">Handleliste</a>
+      <a href="#meal-prep">Meal prep</a>
+      <a href="#tilbud">Tilbud</a>
     </nav>
-    <section class="section" id="middager">
-      <div class="section-header"><div><div class="eyebrow">01 / UKESMENY</div><h2>Syv gode middager.</h2></div><span class="section-aside">Trykk for oppskrift ↓</span></div>
+
+    <section id="middager" class="section">
+      <div class="section-heading">
+        <h2>Middager</h2>
+        <span class="section-meta">Trykk for oppskrift</span>
+      </div>
       <div id="meal-list" class="meal-list" aria-live="polite"></div>
     </section>
-    <section class="section" id="handleliste">
-      <div class="section-header"><div><div class="eyebrow">02 / MANDAGSHANDEL</div><h2>Handleliste.</h2></div><button type="button" id="reset-shopping" class="text-button">Nullstill</button></div>
-      <div class="shopping-meta"><strong id="shopping-count">0 av 0 varer</strong><span id="shopping-total">—</span></div>
-      <div class="shopping-progress"><div id="shopping-progress"></div></div>
+
+    <section id="handleliste" class="section">
+      <div class="section-heading">
+        <h2>Handleliste</h2>
+        <button type="button" id="reset-shopping" class="subtle-button">Nullstill</button>
+      </div>
+      <div class="shopping-summary">
+        <span id="shopping-count">0 av 0 varer</span>
+        <strong id="shopping-total">—</strong>
+      </div>
+      <div class="shopping-progress" aria-hidden="true"><div id="shopping-progress"></div></div>
       <div id="shopping-groups"></div>
-      <div class="hint" id="pantry-note"></div>
+      <p id="pantry-note" class="detail-note"></p>
     </section>
-    <section class="section" id="meal-prep">
-      <div class="section-header"><div><div class="eyebrow">03 / FORBEREDELSER</div><h2>Litt jobb mandag.<br><em>Mer fri resten av uka.</em></h2></div><span class="section-aside">50–60 min</span></div>
+
+    <section id="meal-prep" class="section">
+      <div class="section-heading">
+        <h2>Meal prep</h2>
+        <span class="section-meta">Ca. 1 time mandag</span>
+      </div>
       <ol id="prep-steps" class="prep-steps"></ol>
-      <div class="hint" id="storage-note"></div>
+      <p id="storage-note" class="detail-note"></p>
     </section>
-    <section class="section" id="tilbud">
-      <div class="section-header"><div><div class="eyebrow">04 / SPAR SMART</div><h2>Ukens tilbud.</h2></div></div>
-      <p class="section-copy" id="offer-summary"></p>
+
+    <section id="tilbud" class="section">
+      <div class="section-heading"><h2>Ukens tilbud</h2></div>
+      <p id="offer-summary" class="section-intro"></p>
       <div id="offer-list" class="offer-list"></div>
-      <h3 class="minor-title">Kundeaviser og kampanjer</h3>
+      <h3 class="sub-heading">Kundeaviser</h3>
       <div id="flyer-links" class="flyer-links"></div>
-      <p class="hint" id="offer-disclaimer"></p>
+      <p id="offer-disclaimer" class="detail-note"></p>
     </section>
-    <section class="section last" id="other-meals">
-      <div class="section-header"><div><div class="eyebrow">05 / RESTEN AV DAGEN</div><h2>Frokost og litt til.</h2></div></div>
-      <div id="other-meals-list" class="other-meals-list"></div>
+
+    <section id="other-meals" class="section last-section">
+      <div class="section-heading"><h2>Frokost og lunsj</h2></div>
+      <div id="other-meals-list"></div>
     </section>
   </main>
-  <footer class="footer"><div class="shell footer-inner"><span>✳ Matplan</span><span>God mat. Mindre styr.</span><a href="https://github.com/Objektorientert/Objektorientert.github.io" target="_blank" rel="noopener">GitHub ↗</a></div></footer>
-</body></html>
+</body>
+</html>
