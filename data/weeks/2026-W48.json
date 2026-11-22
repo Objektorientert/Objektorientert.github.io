@@ -1,0 +1,436 @@
+{
+  "id": "2026-W48",
+  "week": 48,
+  "year": 2026,
+  "start": "2026-11-23",
+  "end": "2026-11-29",
+  "title": "Uke 48",
+  "period": "23.–29. november 2026",
+  "updated": "2026-11-22",
+  "target": 1040,
+  "monthlyFoodBudget": 5000,
+  "monthlyWorkLunch": 500,
+  "intro": "Sunn og god mat for én som løper og trener. Små forberedelser på mandag, raske hverdagsmiddager og litt ekstra kos i helgen.",
+  "currency": "NOK",
+  "deals": [
+    {
+      "store": "REMA 1000",
+      "name": "Solvinge kyllingfilet",
+      "quantity": "750 g",
+      "price": 109.9,
+      "unitPrice": "146,53 kr/kg",
+      "valid": "23.–28. november",
+      "url": "https://etilbudsavis.no/REMA-1000",
+      "note": "God pris for ukens tre kyllingporsjoner."
+    },
+    {
+      "store": "REMA 1000",
+      "name": "Mandelpoteter",
+      "quantity": "2,5 kg",
+      "price": 39.9,
+      "unitPrice": "15,96 kr/kg",
+      "valid": "23.–28. november",
+      "url": "https://etilbudsavis.no/REMA-1000",
+      "note": "Rimeligere per kilo enn den mindre posen hos Extra."
+    },
+    {
+      "store": "KIWI",
+      "name": "Egg",
+      "quantity": "18 stk.",
+      "price": 59.9,
+      "unitPrice": "3,33 kr/stk.",
+      "valid": "23.–29. november",
+      "url": "https://etilbudsavis.no/KIWI",
+      "note": "Til frokost, omelett og mellommåltider."
+    },
+    {
+      "store": "KIWI",
+      "name": "Gulrøtter",
+      "quantity": "750 g",
+      "price": 19.9,
+      "unitPrice": "26,53 kr/kg",
+      "valid": "23.–29. november",
+      "url": "https://etilbudsavis.no/KIWI",
+      "note": "Brukes flere steder i ukens måltider."
+    }
+  ],
+  "flyers": [
+    {
+      "store": "REMA 1000",
+      "url": "https://www.rema.no/kampanjer/"
+    },
+    {
+      "store": "KIWI",
+      "url": "https://kiwi.no/"
+    },
+    {
+      "store": "Coop Mega",
+      "url": "https://www.coop.no/coop-mega"
+    },
+    {
+      "store": "Coop Extra",
+      "url": "https://www.coop.no/extra"
+    },
+    {
+      "store": "Coop Obs",
+      "url": "https://www.coop.no/obs"
+    },
+    {
+      "store": "MENY Helgø",
+      "url": "https://meny.no/kampanjer"
+    },
+    {
+      "store": "Joker",
+      "url": "https://joker.no/"
+    }
+  ],
+  "offerSummary": "REMA er et naturlig hovedstopp for kylling og poteter, mens KIWI kan være verdt et stopp for egg og gulrøtter hvis du uansett passerer. Andre butikker hadde ikke tilstrekkelig dokumenterte besparelser til å anbefale en ekstra tur. Prisene kan variere lokalt.",
+  "meals": [
+    {
+      "day": "Mandag",
+      "date": "2026-11-23",
+      "name": "Sitron- og paprikakylling med poteter",
+      "minutes": 30,
+      "emoji": "🍗",
+      "tag": "Meal prep",
+      "servings": 1,
+      "ingredients": [
+        "250 g kyllingfilet (stek totalt 500 g til mandag og onsdag)",
+        "350 g poteter",
+        "150 g gulrøtter",
+        "60 g yoghurt",
+        "1 hvitløksfedd",
+        "¼ sitron",
+        "1 ts paprikapulver, 1 ts olje, salt og pepper"
+      ],
+      "steps": [
+        "Sett ovnen på 210 °C. Skjær poteter og gulrøtter i små biter, vend i olje og krydder.",
+        "Krydre totalt 500 g kylling med paprika, hvitløk og sitron. Stek på eget område av brettet til gjennomstekt.",
+        "Spis 250 g kylling med poteter, gulrøtter og dressing av yoghurt og sitron. Avkjøl resten raskt og sett i kjøleskap til onsdag."
+      ]
+    },
+    {
+      "day": "Tirsdag",
+      "date": "2026-11-24",
+      "name": "Italiensk bolognese med linser",
+      "minutes": 15,
+      "emoji": "🍝",
+      "tag": "Rester fra mandag",
+      "servings": 1,
+      "ingredients": [
+        "1 av 3 porsjoner bolognese fra mandagens forberedelser",
+        "90 g tørr pasta",
+        "Oregano og pepper"
+      ],
+      "steps": [
+        "Kok pasta etter anvisningen på pakken.",
+        "Varm bolognesen helt gjennom. Spe med litt pastavann om nødvendig.",
+        "Bland pastaen med sausen og smak til med oregano og pepper."
+      ]
+    },
+    {
+      "day": "Onsdag",
+      "date": "2026-11-25",
+      "name": "Kyllingfajitas med hvitløksdressing",
+      "minutes": 15,
+      "emoji": "🌯",
+      "tag": "Rask middag",
+      "servings": 1,
+      "ingredients": [
+        "250 g ferdigstekt kylling fra mandag",
+        "2 tortillalefser",
+        "½ paprika og ¼ løk",
+        "Litt salat",
+        "50 g naturell yoghurt",
+        "½ hvitløksfedd, spisskummen og chili"
+      ],
+      "steps": [
+        "Stek paprika og løk med spisskummen og chili.",
+        "Ha i den ferdigstekte kyllingen og varm godt gjennom.",
+        "Bland yoghurt og revet hvitløk. Server i varme lefser med salat og dressing."
+      ]
+    },
+    {
+      "day": "Torsdag",
+      "date": "2026-11-26",
+      "name": "Bakt potet med bolognesefyll",
+      "minutes": 20,
+      "emoji": "🥔",
+      "tag": "Rester fra fryseren",
+      "servings": 1,
+      "ingredients": [
+        "350 g potet",
+        "1 porsjon bolognese, tint i kjøleskap",
+        "2 ss naturell yoghurt",
+        "Litt salat og pepper"
+      ],
+      "steps": [
+        "Prikk poteten og stek i mikrobølgeovn ca. 8–12 minutter til den er mør.",
+        "Varm bolognesen helt gjennom i en kjele.",
+        "Snitt poteten og fyll med bolognese, yoghurt, pepper og litt salat."
+      ]
+    },
+    {
+      "day": "Fredag",
+      "date": "2026-11-27",
+      "name": "Sprø fisketaco",
+      "minutes": 20,
+      "emoji": "🐟",
+      "tag": "Fredagsfavoritt",
+      "servings": 1,
+      "ingredients": [
+        "200 g seifilet eller torsk, tint",
+        "2 tortillalefser",
+        "¼ agurk og 50 g revet gulrot",
+        "Litt salat",
+        "60 g yoghurt og ¼ sitron",
+        "Paprikapulver, chili, salt og pepper"
+      ],
+      "steps": [
+        "Tørk fisken, skjær i biter og krydre. Stek i litt olje til den er gjennomstekt og flaker seg.",
+        "Skjær grønnsaker og rør sammen yoghurt og sitron.",
+        "Server fisk og grønnsaker i varme lefser med dressing."
+      ]
+    },
+    {
+      "day": "Lørdag",
+      "date": "2026-11-28",
+      "name": "Kremet kyllingcurry med ris",
+      "minutes": 20,
+      "emoji": "🍛",
+      "tag": "Helgekos",
+      "servings": 1,
+      "ingredients": [
+        "250 g kyllingfilet, tint",
+        "200 ml kokosmelk",
+        "½ paprika, 150 g brokkoli, ¼ løk",
+        "1 hvitløksfedd",
+        "90 g tørr ris",
+        "2 ts karripulver, sitron og chili"
+      ],
+      "steps": [
+        "Kok risen. Brun kyllingen i biter i litt olje.",
+        "Tilsett grønnsaker, hvitløk og karri og stek videre.",
+        "Hell i kokosmelk og småkok til kyllingen er gjennomstekt. Tilsett brokkoli mot slutten og smak til. Server med ris."
+      ]
+    },
+    {
+      "day": "Søndag",
+      "date": "2026-11-29",
+      "name": "Pannestekt sei med potetmos",
+      "minutes": 25,
+      "emoji": "🍽️",
+      "tag": "Klassiker",
+      "servings": 1,
+      "ingredients": [
+        "200 g seifilet, tint",
+        "350 g poteter",
+        "150 g brokkoli",
+        "50 ml melk",
+        "60 g naturell yoghurt",
+        "1 ts dijonsennep, salt og pepper"
+      ],
+      "steps": [
+        "Kok potetene møre og mos med melk, salt og pepper.",
+        "Stek fisken i litt olje til gjennomstekt. Damp brokkolien.",
+        "Bland yoghurt med dijonsennep og server sammen med fisk og mos."
+      ]
+    }
+  ],
+  "mealPrep": [
+    {
+      "title": "0–10 min · Sett i ovnen",
+      "detail": "Sett ovnen på 210 °C. Del 750 g kylling i 3 porsjoner à 250 g. Frys lørdagsporsjonen. Stek 500 g kylling med 350 g poteter og 150 g gulrøtter, på separate deler av brettet."
+    },
+    {
+      "title": "10–35 min · Kok bolognese",
+      "detail": "Brun 400 g kjøttdeig med 1 hakket løk, 2 hvitløksfedd og 150 g revet gulrot. Tilsett 2 bokser hakkede tomater, 1 boks avrente linser og oregano. Småkok 20 minutter."
+    },
+    {
+      "title": "35–45 min · Fordel middagene",
+      "detail": "Spis halvparten av kyllingen og grønnsakene. Sett den andre kyllingporsjonen til onsdag. Del bolognesen i 3 porsjoner: tirsdag, torsdag og lørdagslunsj."
+    },
+    {
+      "title": "45–55 min · To frokoster",
+      "detail": "Lag 2 glass overnight oats, hvert med 60 g havregryn, 150 ml melk, 100 g yoghurt og litt frosne bær."
+    },
+    {
+      "title": "55–60 min · Merk og sett kaldt",
+      "detail": "Oppbevar tirsdagsbolognese og onsdagskylling i kjøleskap. Frys bolognese til torsdag og lørdagslunsj. Avkjøl raskt og sett kaldt innen 2 timer."
+    }
+  ],
+  "storage": "Hold kjøleskapet på 4 °C eller kaldere. Frys porsjoner som skal spises senere i uken og tin i kjøleskapet dagen før. Varm rester helt gjennom. Tin frossen fisk i kjøleskap kvelden før bruk.",
+  "otherMeals": [
+    {
+      "name": "Frokost",
+      "detail": "Mandag, torsdag, fredag: proteinshake med melk, havregryn og proteinpulver. Tirsdag og onsdag: overnight oats. Lørdag: 3 egg og grovbrød. Søndag: havregrøt med banan og bær."
+    },
+    {
+      "name": "Helgelunsj",
+      "detail": "Lørdag: siste porsjon bolognese på grovbrød. Søndag: omelett med 3 egg, litt løk og gulrot, og brød."
+    },
+    {
+      "name": "Mellommåltider",
+      "detail": "Bananer, epler, yoghurt med bær og kokte egg. På lange løpedager: mer ris, pasta, brød eller havregryn, og eventuelt sportsnæring underveis."
+    }
+  ],
+  "shopping": [
+    {
+      "category": "Kjøtt, fisk, egg og meieri",
+      "items": [
+        [
+          "Kyllingfilet 750 g · REMA",
+          109.9,
+          true
+        ],
+        [
+          "Kjøttdeig 400 g",
+          75,
+          false
+        ],
+        [
+          "Frossen sei/torsk 400 g",
+          72,
+          false
+        ],
+        [
+          "Egg 18 stk. · KIWI",
+          59.9,
+          true
+        ],
+        [
+          "Melk 3 liter",
+          78,
+          false
+        ],
+        [
+          "Naturell yoghurt 1 kg",
+          39,
+          false
+        ]
+      ]
+    },
+    {
+      "category": "Brød, korn og poteter",
+      "items": [
+        [
+          "Mandelpoteter 2,5 kg · REMA",
+          39.9,
+          true
+        ],
+        [
+          "Havregryn 1 kg",
+          25,
+          false
+        ],
+        [
+          "Grovbrød 1 stk.",
+          32,
+          false
+        ],
+        [
+          "Ris 1 kg",
+          31,
+          false
+        ],
+        [
+          "Pasta 500 g",
+          22,
+          false
+        ],
+        [
+          "Tortillalefser 8 stk.",
+          29,
+          false
+        ]
+      ]
+    },
+    {
+      "category": "Grønnsaker og hermetikk",
+      "items": [
+        [
+          "Gulrøtter 750 g · KIWI",
+          19.9,
+          true
+        ],
+        [
+          "Løk 1 kg",
+          25,
+          false
+        ],
+        [
+          "Hvitløk 1 stk.",
+          12,
+          false
+        ],
+        [
+          "Paprika 2 stk.",
+          36,
+          false
+        ],
+        [
+          "Frossen brokkoli 750 g",
+          35,
+          false
+        ],
+        [
+          "Salat 1 stk.",
+          19,
+          false
+        ],
+        [
+          "Agurk 1 stk.",
+          23,
+          false
+        ],
+        [
+          "Sitron 1 stk.",
+          12,
+          false
+        ],
+        [
+          "Hakkede tomater 2 bokser",
+          26,
+          false
+        ],
+        [
+          "Linser 1 boks",
+          16,
+          false
+        ],
+        [
+          "Kokosmelk 400 ml",
+          22,
+          false
+        ]
+      ]
+    },
+    {
+      "category": "Frukt, bær og helgekos",
+      "items": [
+        [
+          "Bananer 1 kg",
+          27,
+          false
+        ],
+        [
+          "Epler 1 kg",
+          35,
+          false
+        ],
+        [
+          "Frosne bær 400 g",
+          39,
+          false
+        ],
+        [
+          "Sjokoladeplate 1 stk.",
+          30,
+          false
+        ]
+      ]
+    }
+  ],
+  "pantry": "Antatt hjemme: olje, salt, pepper, paprika, spisskummen, oregano, karri, chili, soyasaus, dijonsennep, chiafrø og proteinpulver. Sjekk også om du har ris, pasta, havregryn og frysegrønnsaker fra forrige uke.",
+  "disclaimer": "Kun tilbudspriser merket med ✓ er hentet fra publiserte tilbudsoversikter. Andre priser er anslag; kontrollér lokale hyllepriser og gyldighet før kjøp."
+}
